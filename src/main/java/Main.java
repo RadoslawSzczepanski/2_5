@@ -4,9 +4,9 @@ public class Main {
     System.out.println("Celsjusz Fahrenheit");
     System.out.println(" ");
     
-    for (int celsius = 0; celsius <= 300; celsius += 20) {
-      double fahrenheit = (celsius * 9.0/5.0) + 32;
-      System.out.printf("%3d°C\t%6.1f°F%n", celsius, fahrenheit);
+    for (int celsiusz = 0; celsiusz <= 300; celsiusz += 20) {
+      double fahrenheit = (celsiusz * 9.0/5.0) + 32;
+      System.out.printf("%3d°C\t%6.1f°F%n", celsiusz, fahrenheit);
     }
   }
 }
